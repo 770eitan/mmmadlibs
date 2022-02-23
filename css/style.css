@@ -24,6 +24,7 @@ h1 {
 #cards {
     display: none;
     margin: 250px;
+    margin-top: 0px;
     text-align: center;
 }
 
@@ -33,17 +34,12 @@ h1 {
     width: 18rem;
 }
 
-#main-nouns-input {
-    display: flex;
-    justify-content: center;
-}
-
 .card-img-top {
     max-height: 50%
 }
 
 #mitzvahMishkebabbleButton {
-    display: flex;
+    display: none;
     justify-content: center;
     text-align: center;
     margin: 250px;
@@ -67,7 +63,14 @@ h1 {
     text-size-adjust: inherit;
     background-color: #0077b6;
     border-color: #0077b6
+
 }
+
+.btn-primary:hover {
+    background-color: #caf0f8;
+}
+
+
 
 #main-verbs-input {
     display: none;
@@ -82,9 +85,9 @@ h1 {
 }
 
 #main-name-input {
-    display: none;
     justify-content: center;
     margin-top: 250px;
+    display: none;
 }
 
 .input-group-text {
@@ -94,20 +97,28 @@ h1 {
     margin-top: auto;
 }
 
-#reset {
-    display: none;
-}
 
 #main-nouns-input {
     display: flex;
     margin-top: 250px;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-left: 10px;
 }
 
 #story {
-    display: flex;
+    display: none;
     justify-content: center;
     align-self: center;
     color: #caf0f8;
     margin-right: 10%;
     margin-left: 10%;
+    border: solid #caf0f8 5px;
+    padding: 10px;
+    position: relative; 
+    bottom: 200px;
+    border-radius:10px
+
+    
 }
+
