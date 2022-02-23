@@ -3,19 +3,37 @@ body {
     flex-direction: column; 
     justify-content: center;
     align-items: center;
-    background-color: rgb(156, 186, 247);
+    background-color: #0096c7;
     font-family: fantasy;
+    margin-bottom: auto;
 
 }
+
+.card-body
+{   
+    
+    background-color:#0077b6;
+}
+
 h1{
     display: flex;
     justify-content: center;
+    color: #caf0f8;
+    margin-top: 5%;
+    border-color: #0077b6;
+    border-radius: 50%;
 }
 #cards {
     display:none;
+    margin: 250px;
+    text-align: center;
 }
 .card {
-justify-content: space-between;}
+    justify-content: space-between;
+    text-align: center;
+    width: 18rem;
+}
+    
 #main-nouns-input{
     display:flex;
     justify-content: center;
@@ -23,34 +41,74 @@ justify-content: space-between;}
 
 .card-img-top {
     max-height:50%
- 
 }
-.btn-primary{
-    display: flex;
-    justify-content: space-between;
 
-}
 #mitzvahMishkebabbleButton{
     display: flex;
     justify-content: center;
     text-align: center;
-    height: 499%;
+    margin: 250px;
+    background-color: aliceblue;
+    
 }
+.btn-primary{
+    width:100%;
+    height: 75%;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-decoration: wavy;
+    text-transform: uppercase;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-size-adjust:inherit;
+    background-color: #0077b6;
+    border-color: #0077b6
+}
+    
 #main-verbs-input{
     display:none;
     justify-content: center;
+    margin-top: 250px;
 
 }
  #main-adjectives-input{
     display:none;
     justify-content: center;
+    margin-top: 250px;
 } 
- #main-name-input{
+#main-name-input{
     display:none;
     justify-content: center;
+    margin-top: 250px;
 }
- 
+.input-group-text
+{
+    background-color: #0077b6;
+    color: #caf0f8;
+    border: #0077b6;
+    margin-top: auto;
+    
+}
 
 #reset{
     display: none;
 }
+
+#main-nouns-input{
+    display: flex;
+    margin-top: 250px;
+}
+#story{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    color: #caf0f8;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+

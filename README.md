@@ -1,4 +1,6 @@
-# Mitzvah Mad Libs Mishkababbkle (MMM)
+Mitzvah Mad Libs Mishkababbkle (MMM)
+=
+
 
 I built MMM because I remember how fun Madlibs were as a child. I made it suitable for Jewish children because I've noticed a lack of Jewish educational apps. 
 ---
