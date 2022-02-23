@@ -1,21 +1,18 @@
 body {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #0096c7;
     font-family: fantasy;
     margin-bottom: auto;
-
 }
 
-.card-body
-{   
-    
-    background-color:#0077b6;
+.card-body {
+    background-color: #0077b6;
 }
 
-h1{
+h1 {
     display: flex;
     justify-content: center;
     color: #caf0f8;
@@ -23,36 +20,38 @@ h1{
     border-color: #0077b6;
     border-radius: 50%;
 }
+
 #cards {
-    display:none;
+    display: none;
     margin: 250px;
     text-align: center;
 }
+
 .card {
     justify-content: space-between;
     text-align: center;
     width: 18rem;
 }
-    
-#main-nouns-input{
-    display:flex;
+
+#main-nouns-input {
+    display: flex;
     justify-content: center;
 }
 
 .card-img-top {
-    max-height:50%
+    max-height: 50%
 }
 
-#mitzvahMishkebabbleButton{
+#mitzvahMishkebabbleButton {
     display: flex;
     justify-content: center;
     text-align: center;
     margin: 250px;
     background-color: aliceblue;
-    
 }
-.btn-primary{
-    width:100%;
+
+.btn-primary {
+    width: 100%;
     height: 75%;
     justify-content: center;
     text-align: center;
@@ -65,45 +64,46 @@ h1{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    text-size-adjust:inherit;
+    text-size-adjust: inherit;
     background-color: #0077b6;
     border-color: #0077b6
 }
-    
-#main-verbs-input{
-    display:none;
-    justify-content: center;
-    margin-top: 250px;
 
-}
- #main-adjectives-input{
-    display:none;
-    justify-content: center;
-    margin-top: 250px;
-} 
-#main-name-input{
-    display:none;
+#main-verbs-input {
+    display: none;
     justify-content: center;
     margin-top: 250px;
 }
-.input-group-text
-{
+
+#main-adjectives-input {
+    display: none;
+    justify-content: center;
+    margin-top: 250px;
+}
+
+#main-name-input {
+    display: none;
+    justify-content: center;
+    margin-top: 250px;
+}
+
+.input-group-text {
     background-color: #0077b6;
     color: #caf0f8;
     border: #0077b6;
     margin-top: auto;
-    
 }
 
-#reset{
+#reset {
     display: none;
 }
 
-#main-nouns-input{
+#main-nouns-input {
     display: flex;
     margin-top: 250px;
 }
-#story{
+
+#story {
     display: flex;
     justify-content: center;
     align-self: center;
@@ -111,4 +111,3 @@ h1{
     margin-right: 10%;
     margin-left: 10%;
 }
-
